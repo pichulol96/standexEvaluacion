@@ -71,6 +71,8 @@ $(function() {
                 }     
             },
             submitHandler:function(){
+                     //desabilitamos el boton para que no se haga mas de una inserccion
+                    document.getElementById("registrar").disabled=true;
                    //limpiamos el localstorage 
                    localStorage.removeItem("nombre");
                    //guardamos en localstorage un objeto con los datos del nuevo registro
@@ -91,6 +93,7 @@ $(function() {
                     success: function(data) {
                         $('#miModal').modal('show')
                         document.getElementById('formulario').reset();
+                        document.getElementById("registrar").disabled=false;
                         //$('#resp').html(data);
                        
                         

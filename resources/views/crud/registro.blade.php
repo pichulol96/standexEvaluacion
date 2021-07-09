@@ -48,7 +48,7 @@
 				</div>
 			
 
-		 		<button class="btn btn-primary btn-block"><i class="fas fa-check-circle"></i>Registrar</button>
+		 		<button id="registrar" class="btn btn-primary btn-block"><i class="fas fa-check-circle"></i>Registrar</button>
 		</form> 		
 	</div>
     <!-- Modal -->
