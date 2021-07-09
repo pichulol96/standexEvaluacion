@@ -4,7 +4,9 @@
 
  usar el comando git clone con la url del proyecto de github.
 
- importar la base de datos a mysql que se encuentra en la carpeta baseDeDatos
+ importar la base de datos a mysql que se encuentra en la carpeta database, 
+ crean una base de datos con el nombre evaluacion depues usan el comando use evaluacion
+ y por ultimo abren el script de la base de datos y lo ejecutan completo.
 
  ejecutar el comando composer install.
 
